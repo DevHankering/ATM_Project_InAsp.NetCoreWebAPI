@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\rto\\userresponserto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\rto\\userresponserto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\migrations\\20241219164337_update4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\migrations\\20241219164337_update4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\data\\account_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\data\\account_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\dto\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\dto\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\repositories\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\repositories\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\repositories\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\repositories\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\models\\userdomainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\models\\userdomainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\models\\documentdomainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\models\\documentdomainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\migrations\\20241219065622_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\migrations\\20241219065622_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\migrations\\20241219072913_update3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\migrations\\20241219072913_update3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\migrations\\20241219072127_update2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\migrations\\20241219072127_update2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|c:\\users\\rahulkumar\\source\\repos\\atm_project_inasp.netcorewebapi\\atm_project_inasp.netcorewebapi\\migrations\\20241219071035_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D887325-E51A-4673-A386-EE21A702D8DC}|ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj|solutionrelative:atm_project_inasp.netcorewebapi\\migrations\\20241219071035_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241219164337_update4.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219164337_update4.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219164337_update4.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219164337_update4.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219164337_update4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T16:43:38.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABIAAACAzMzMzIwswFsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:33:30.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Repositories\\UserRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Repositories\\UserRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Repositories\\UserRepository\\IUserRepository.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Repositories\\UserRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:33:02.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\DTO\\UserRequestDto.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\DTO\\UserRequestDto.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\DTO\\UserRequestDto.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\DTO\\UserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:47:27.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account_Db.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Data\\Account_Db.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Data\\Account_Db.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Data\\Account_Db.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Data\\Account_Db.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:22:43.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserResponseRto.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\RTO\\UserResponseRto.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\RTO\\UserResponseRto.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\RTO\\UserResponseRto.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\RTO\\UserResponseRto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:18:32.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Repositories\\UserRepository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Repositories\\UserRepository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Repositories\\UserRepository\\UserRepository.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Repositories\\UserRepository\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:33:24.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDomainModel.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Models\\UserDomainModel.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Models\\UserDomainModel.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Models\\UserDomainModel.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Models\\UserDomainModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:49:24.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocumentDomainModel.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Models\\DocumentDomainModel.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Models\\DocumentDomainModel.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Models\\DocumentDomainModel.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Models\\DocumentDomainModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:52:44.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Program.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:47:29.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241219072913_update3.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219072913_update3.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219072913_update3.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219072913_update3.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219072913_update3.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:29:13.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241219072127_update2.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219072127_update2.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219072127_update2.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219072127_update2.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219072127_update2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:21:27.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20241219071035_update1.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219071035_update1.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219071035_update1.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219071035_update1.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219071035_update1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:10:35.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241219065622_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219065622_Initial Migration.cs",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219065622_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219065622_Initial Migration.cs",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\Migrations\\20241219065622_Initial Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:56:23.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\appsettings.json",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T06:47:20.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ATM_Project_InAsp.NetCoreWebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj",
+              "RelativeDocumentMoniker": "ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj",
+              "ToolTip": "C:\\Users\\RahulKumar\\source\\repos\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj",
+              "RelativeToolTip": "ATM_Project_InAsp.NetCoreWebAPI\\ATM_Project_InAsp.NetCoreWebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T05:05:26.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

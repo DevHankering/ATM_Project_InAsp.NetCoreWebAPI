@@ -1,0 +1,6 @@
+@ATM_Project_InAsp.NetCoreWebAPI_HostAddress = http://localhost:5190
+
+GET {{ATM_Project_InAsp.NetCoreWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
