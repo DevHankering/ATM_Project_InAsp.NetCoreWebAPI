@@ -1,8 +1,117 @@
 [
   {
     "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Account/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "CheckBalance",
+    "RelativePath": "api/Account/checkBankBalance{Name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "CDMoney",
+    "RelativePath": "api/Account/CreditDebitMoney",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BalanceAmount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "CD",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Account/getAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "GetCsvData",
+    "RelativePath": "api/Account/GetCSVFileData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "GetExcelData",
+    "RelativePath": "api/Account/GetExcelData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDto",
+        "Type": "ATM_Project_InAsp.NetCoreWebAPI.DTO.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
     "Method": "CreateUser",
-    "RelativePath": "api/Account/CreateUser",
+    "RelativePath": "api/Account/RegisterUser",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -29,6 +138,38 @@
       },
       {
         "Name": "PanCard",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "UploadCsvFile",
+    "RelativePath": "api/Account/uploadCsvFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Project_InAsp.NetCoreWebAPI.Controllers.AccountController",
+    "Method": "UploadFile",
+    "RelativePath": "api/Account/uploadExcellFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       }

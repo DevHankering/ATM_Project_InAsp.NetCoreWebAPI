@@ -22,7 +22,92 @@ namespace ATM_Project_InAsp.NetCoreWebAPI.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.DocumentDomainModel", b =>
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.DTO.BalanceDto", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<decimal>("BalanceAmount")
+                        .HasColumnType("numeric");
+
+                    b.Property<string>("CD")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("BalanceDto");
+                });
+
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.BalanceModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<decimal>("BalanceAmount")
+                        .HasColumnType("numeric");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Balance");
+                });
+
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.BalanceSheet", b =>
+                {
+                    b.Property<Guid>("Transaction_ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("CD")
+                        .HasColumnType("text");
+
+                    b.Property<decimal?>("CurrentBalanceAmount")
+                        .HasColumnType("numeric");
+
+                    b.Property<string>("CustomerName")
+                        .HasColumnType("text");
+
+                    b.Property<Guid?>("Customer_ID")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("UpdatedAtLocalTimeZone")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<DateTime?>("UpdatedAtUniversalTimeZone")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Transaction_ID");
+
+                    b.HasIndex("Customer_ID");
+
+                    b.ToTable("BalanceSheet");
+                });
+
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.CsvDataModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<decimal?>("Price")
+                        .HasColumnType("numeric");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CsvData");
+                });
+
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.DocumentModel", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -41,7 +126,32 @@ namespace ATM_Project_InAsp.NetCoreWebAPI.Migrations
                     b.ToTable("Documents");
                 });
 
-            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.UserDomainModel", b =>
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.ExcelData", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ExcelData");
+                });
+
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.UserModel", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -50,13 +160,16 @@ namespace ATM_Project_InAsp.NetCoreWebAPI.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("text");
 
+                    b.Property<Guid?>("BalanceId")
+                        .HasColumnType("uuid");
+
                     b.Property<DateTime?>("CreatedAtLocalTimeZone")
                         .HasColumnType("timestamp without time zone");
 
                     b.Property<DateTime?>("CreatedAtUniversalTimeZone")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid>("DocumentId")
+                    b.Property<Guid?>("DocumentId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Name")
@@ -67,21 +180,45 @@ namespace ATM_Project_InAsp.NetCoreWebAPI.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BalanceId")
+                        .IsUnique();
+
                     b.HasIndex("DocumentId")
                         .IsUnique();
 
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.UserDomainModel", b =>
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.BalanceSheet", b =>
                 {
-                    b.HasOne("ATM_Project_InAsp.NetCoreWebAPI.Models.DocumentDomainModel", "Documents")
-                        .WithOne()
-                        .HasForeignKey("ATM_Project_InAsp.NetCoreWebAPI.Models.UserDomainModel", "DocumentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("ATM_Project_InAsp.NetCoreWebAPI.Models.UserModel", "User")
+                        .WithMany("BalanceSheet")
+                        .HasForeignKey("Customer_ID")
+                        .OnDelete(DeleteBehavior.Cascade);
 
-                    b.Navigation("Documents");
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.UserModel", b =>
+                {
+                    b.HasOne("ATM_Project_InAsp.NetCoreWebAPI.Models.BalanceModel", "Balance")
+                        .WithOne()
+                        .HasForeignKey("ATM_Project_InAsp.NetCoreWebAPI.Models.UserModel", "BalanceId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("ATM_Project_InAsp.NetCoreWebAPI.Models.DocumentModel", "Document")
+                        .WithOne()
+                        .HasForeignKey("ATM_Project_InAsp.NetCoreWebAPI.Models.UserModel", "DocumentId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("Balance");
+
+                    b.Navigation("Document");
+                });
+
+            modelBuilder.Entity("ATM_Project_InAsp.NetCoreWebAPI.Models.UserModel", b =>
+                {
+                    b.Navigation("BalanceSheet");
                 });
 #pragma warning restore 612, 618
         }
